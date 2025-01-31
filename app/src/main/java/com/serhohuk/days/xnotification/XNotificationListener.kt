@@ -73,7 +73,7 @@ class XNotificationListener : NotificationListenerService() {
 
 }
 
-private const val TELEGRAM_PACKAGE = "org.telegram.messenger"
+private const val TELEGRAM_PACKAGE = "org.telegram.messenger" // TO TEST
 private const val TWITTER_PACKAGE = "com.twitter.android"
 
 private val listOfAvailableApps = listOf(
@@ -92,6 +92,5 @@ private val listOfKeyWords = listOf(
     "buy now",
     "buy",
     "launch",
-    "presale",
-    "logical_mind"
+    "presale"
 )
